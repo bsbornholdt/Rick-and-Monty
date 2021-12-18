@@ -1,12 +1,13 @@
 print("Welcome to the tip calculator! ")
 
-total = input("What was the total bill? $")
+total = input("What was the total bill? ")
 
-tip = input("How much tip would you like to give? 15, 18, or 20? %")
+tip = input("How much tip would you like to give? 10, 12, or 15? ")
 
 people = input("How many people to split the bill? ")
 
 your_tip = (int(total) / int(people)) *  (float(tip) /100 + 1)
 
 x = round(float(your_tip), 2)
+x = "{:.2f}".format(your_tip)
 print(f"You owe ${x}")
