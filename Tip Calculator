@@ -1,13 +1,20 @@
-print("Welcome to the tip calculator! ")
+print("Welcome to the tip calculator! \n")
 
-total = input("What was the total bill? ")
+total = input("What was your total bill? \n$")
 
-tip = input("How much tip would you like to give? 10, 12, or 15? ")
+tip = input("How much tip would you like to give? 12, 15, or 18? \n")
 
-people = input("How many people to split the bill? ")
+people = input("How many folks will be splitting the bill? \n\n")
 
 your_tip = (float(total) / int(people)) *  (float(tip) /100 + 1)
 
+
 x = round(float(your_tip), 2)
 x = "{:.2f}".format(your_tip)
-print(f"You owe ${x}")
+print(f"You should each owe ${x}!\n")
+
+big_tip = 9000 
+if tip != 9000:
+  print()
+if your_tip > big_tip:
+  print(f"It's Over ${big_tip}! Woah there, money bags!")
