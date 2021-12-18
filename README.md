@@ -1,2 +1,2 @@
 # Rick-and-Monty
-Educational/Professional Portfolio 
+Python Portfolio
