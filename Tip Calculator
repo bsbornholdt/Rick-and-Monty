@@ -6,7 +6,7 @@ tip = input("How much tip would you like to give? 10, 12, or 15? ")
 
 people = input("How many people to split the bill? ")
 
-your_tip = (int(total) / int(people)) *  (float(tip) /100 + 1)
+your_tip = (float(total) / int(people)) *  (float(tip) /100 + 1)
 
 x = round(float(your_tip), 2)
 x = "{:.2f}".format(your_tip)
