@@ -6,7 +6,7 @@ tip = input("How much tip would you like to give? 12, 15, or 18? \n")
 
 people = input("How many folks will be splitting the bill? \n\n")
 
-your_tip = (float(total) / int(people)) *  (float(tip) /100 + 1)
+your_tip = (float(total) / int(people)) *  (float(tip) /100 + 1) - float(total)
 
 
 x = round(float(your_tip), 2)
