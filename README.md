@@ -1,2 +1,2 @@
 # Rick-and-Monty
-Professional Portfolio 
+Professional Portfolio - Focus is on Python
